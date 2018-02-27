@@ -360,20 +360,3 @@ title(strcat([' Mean value = ',num2str(mean(r_normMeanVar)),' Variance = ',num2s
 disp('%')
 disp('%')
 disp('% –¿¡Œ“¿ «¿¬≈–ÿ≈Õ¿')
-
-Nb=4;
-N=30+mod(4,5);
-T=0.0005*(1+mod(4,3));
-a=((-1)^Nb)*(0.8+0.005*Nb);
-C=1+mod(4,5);
-w0=pi/(6+mod(4,5));
-m=5+mod(4,5);
-U=Nb;
-n0=mod(4,5)+3;
-n_imp=mod(4,5)+5;
-B=[(1.5+mod(4,5)) (5.7-mod(4,5)) (2.2+mod(4,5))];
-k=mod(4,5);
-w=[(pi/(4+k)) (pi/(8+k)) (pi/(16+k))];
-A=[(1.5-k) (0.7+k) (1.4+k)];
-Mean=k+3;
-Var=k+5;
